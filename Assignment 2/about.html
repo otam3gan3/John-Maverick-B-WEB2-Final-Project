@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Home.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/eb5c06b1c4.js" crossorigin="anonymous"></script>  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <title>Assignment 2</title>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+<!--Not Final Logo-->
+            <img src="Media/Pictures/My Post.png" alt="logo">
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="roadmap.html">ROADMAP</a></li>
+                        <li><a href="tokenomics.html">TOKENOMICS</a></li>
+                        <li><a href="contacts.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ABOUT</h1>
+    </section>  
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+        <h2>Community Driven</h2>
+        <p>Community driven and fair launch. <br>The Dev team burned all of their tokens and participated with everyone else.</p>
+        <br>
+        <h2>Automatic LP</h2>
+        <p>Every Trade contributes towards automatically generating liquidity<br>that goes into multple pools used by exchanges.</p>
+        <br>
+        <h2>RSI Static Rewards</h2>
+        <p>Holders earn passive rewards through <br>static reflection as they watch their balance of NFM grow.</p>
+            </div>
+    </div>
+    <div class="about-col">
+        <img src="Pictures\Project_16-13.jpg">
+    </div>
+</div>
+    </section>
+        
+<!--Javascript for Toggle--> 
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";    
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+<!--Footer-->
+<section class="footer">
+    <h4>SOCIALS</h4>
+    <div class="icons">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linked-in"></i></a>
+        
+    </div>
+    <p>COPYRIGHT &copy; 2021 NOFOMO LLC | ALL RIGHTS RESERVED</p>
+    
+    
+</section>
+</body>
+</html>
